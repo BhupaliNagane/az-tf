@@ -48,3 +48,8 @@ variable "admin_password" {
   type        = string
   sensitive   = true
 }
+
+variable "vm_nic" {
+  description = "The name of the virtual machine network interface card"
+  type        = string
+}
